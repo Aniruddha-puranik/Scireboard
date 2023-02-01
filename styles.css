@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #C4B5FD;
+}
+
+.header{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.hero{
+    margin: 100px ;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    background-color: #6EE7B7;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+h2{
+    margin-top: 80px;
+    margin-bottom: -20px;
+}
+
+.guest {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    background-color: #FDE68A;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.counter{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin: 20px auto;
+    font-size: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.score-update{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn{
+    font-family: 'Orbitron', sans-serif;
+    background-color: #f2e7e8;
+    width: 50px;
+    height: 50px;
+    border: none;
+    font-weight:lighter;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn:hover{
+    background-color: #ffffff;
+}
+
+.reset{
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn-reset{
+    font-family: 'Orbitron', sans-serif;
+    margin-top:-40px ;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(233, 84, 84);
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-reset:hover{
+    background-color: rgb(250, 58, 58);
+}

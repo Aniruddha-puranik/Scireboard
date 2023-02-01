@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoreboard</title>
+
+    <!-- Css file -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Js file -->
+    <script src="index.js"></script>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="header">
+        <h2>Welcome to Scoreboard</h2>
+    </div>
+    <div class="hero">
+        <div class="home">
+            <h3>Home</h3>
+            <div class="counter" id="home-count-el">0</div>
+            <div class="score-update">
+                <div class="btn1">
+                    <button class="btn" onclick="countUpdate_01()">+1</button>
+                    <button class="btn" onclick="countUpdate_02()">+2</button>
+                    <button class="btn" onclick="countUpdate_03()">+3</button>
+                </div>
+            </div>
+        </div>
+        <div class="guest">
+            <h3>Guest</h3>
+            <div id="guest-count-el" class="counter"  >0</div>
+            <div class="score-update">
+                <div class="btn1">
+                    <button class="btn" onclick="countUpdate_1()">+1</button>
+                    <button class="btn" onclick="countUpdate_2()">+2</button>
+                    <button class="btn" onclick="countUpdate_3()">+3</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="reset">
+        <button class="btn-reset" onclick="reset()">Reset</button>
+    </div>
+    
+</body>
+</html>
